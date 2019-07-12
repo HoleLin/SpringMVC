@@ -1,5 +1,6 @@
 package com.holelin.web.controller;
 
+import com.holelin.utils.Const;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -11,13 +12,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @date 2019/7/7
  */
 @Controller
-public class TestController {
+@RequestMapping("/page")
+public class PageController {
 	@RequestMapping("/test")
 	public String testSpringMVC(){
-		return "index";
+		return Const.INDEX;
 	}
+
+
 	@RequestMapping("/validation")
 	public String testValidation(){
-		return "validation";
+		return Const.VALIDATION;
 	}
 }
