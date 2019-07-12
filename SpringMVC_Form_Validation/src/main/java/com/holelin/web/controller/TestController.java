@@ -16,4 +16,8 @@ public class TestController {
 	public String testSpringMVC(){
 		return "index";
 	}
+	@RequestMapping("/validation")
+	public String testValidation(){
+		return "validation";
+	}
 }
