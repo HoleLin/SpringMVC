@@ -17,12 +17,12 @@
     * @SessionAttributes
 * SpringMVC视图与视图解析器
     * 普通JSP视图
-    * JstlView
+    * JSTLView
     * ExcelView
     * PdfView
     * 各种报表视图
     * JSON视图
-* SpringMVC--RESTful风格
+* SpringMVC--RESTFUL风格
     * 实现对数据库的CRUD
 * SpringMVC表单标签以及静态资源处理
     * form,input,select,password,hidden等标签的使用
