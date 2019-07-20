@@ -1,3 +1,39 @@
-# SpringMVC
+# SpringMVC学习笔记
 * SpringMVC的初始化项目--Done
 * SpringMVC项目中各种表单传值
+    * 不同参数传值
+    * POJO传值
+    * 集合传值
+* SpringMVC中常见注解
+    * @RequestMapping
+    * @RequestParam
+    * @RequestBody
+    * @RequestHeader
+    * @RequestAttribute
+    * @PathVariable
+    * @CookieValue
+    * @ModelAttribute
+    * @SessionAttribute
+    * @SessionAttributes
+* SpringMVC视图与视图解析器
+    * 普通JSP视图
+    * JstlView
+    * ExcelView
+    * PdfView
+    * 各种报表视图
+    * JSON视图
+* SpringMVC--RESTful风格
+    * 实现对数据库的CRUD
+* SpringMVC表单标签以及静态资源处理
+    * form,input,select,password,hidden等标签的使用
+* 数据转换&数据格式化&数据校验
+    * 类型转换器
+    * 数据校验
+* 处理JSON
+* 国际化
+* 文件上传
+* SpringMVC拦截器
+* SpringMVC异常处理
+## SpringMVC使用中遇到的问题以及解决方法
+* 中文乱码问题
+* 日期格式显示问题
